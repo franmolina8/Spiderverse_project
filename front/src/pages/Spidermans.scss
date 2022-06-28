@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.padre{
+    background-image:linear-gradient(rgba(43, 35, 35, 0.4), rgba(63, 53, 53, 0.2)), url("https://images8.alphacoders.com/929/929202.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    padding: 2rem;
+    & h1{
+        color: lightblue
+    }
+}
+.spider{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10rem;
+    
+    
+    & img {
+        width: 30rem;
+        height: 18rem;
+        border-radius: 15px;
+        
+
+    }
+    
+}
+.title{
+    width: 26rem;
+    margin-bottom: 4rem;
+}
+.hijo{
+    color: lightblue;
+    border-radius: 10px;
+
+    padding: 1.8rem;
+    padding-top: 1rem;
+    border: solid 2px red;
+    background-color: transparentize($color: #080202, $amount: 0.4);
+    gap: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    text-align: center;
+    transition: 0.4s;
+    & h2{
+        text-transform: uppercase;
+
+    }
+    &:hover{
+        transform: scale(1.1);
+        
+    }
+}
+a{
+    text-decoration: none;
+}

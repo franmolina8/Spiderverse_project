@@ -1,0 +1,94 @@
+.father{
+    background-image:linear-gradient(rgba(43, 35, 35, 0.4), rgba(63, 53, 53, 0.2)), url("https://images8.alphacoders.com/929/929202.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    padding: 2rem;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    text-align: center;
+    gap: 2rem;
+    padding-top: 15rem;
+    flex-wrap: wrap;
+
+    & img{
+        width: 30rem;
+        height: 18rem;
+        border-radius: 15px;
+    }
+    & p{
+        width: 15rem;
+    }
+}
+.grandpa{
+    flex-direction: column;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+flex-wrap: wrap;}
+    
+
+.a{
+    text-decoration: none;
+    color: black;
+    
+    width: 100px;
+    padding: 2px;
+    font-size: x-large;
+    background-color: lightblue;
+    margin-top: 10px;
+    border-radius: 20px;
+    
+    &:hover{
+        transform: scale(1.1);
+    }
+    
+}
+.column{display: flex;
+flex-direction: column;
+align-items: center;}
+.center{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: lightblue;
+    & h2{
+        background-color: black;
+        padding: 15px;
+        border-radius: 30px;
+        border: 2px solid red;
+    }
+    & p{
+        font-size: 21px;
+    }
+}
+.villandetail{
+        background-image: url("https://images.hdqwalls.com/wallpapers/venom-dark-artwork-yp.jpg");
+    
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    padding: 2rem;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    text-align: center;
+    gap: 2rem;
+    padding-top: 15rem;
+    flex-wrap: wrap;
+
+    & img{
+        width: 30rem;
+        height: 18rem;
+        border-radius: 15px;
+    }
+    & p{
+        width: 15rem;
+    }
+
+}
